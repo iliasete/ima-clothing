@@ -26,7 +26,6 @@ const SignUpForm = () => {
 
         const retestFormFields = () => setFormFields(defaultFormFields);
 
-        console.log(password, confirmPassword, email, password);
         if (password !== confirmPassword) {
             alert('passwords do not match');
             return;
